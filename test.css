@@ -1,0 +1,134 @@
+body {
+  font-size: 16px;
+  color: black;
+  background-color: white;
+  font-family: cursive;
+}
+/** HEADER **/
+#header-nav {
+  background-color: white;
+  border-radius: 0;
+  border: 2px solid black;
+}
+.navbar-brand {
+  padding-top: 25px;
+}
+
+.navbar-brand h1 { 
+  color: black;
+  font-size: 35px;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 2px gray;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: black;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #c9c0c0;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid gray;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+} /* END HEADER */
+
+/* HOME PAGE */
+.jumbotron {
+  background-color: white;
+}
+h2 {
+    text-align: center;
+    color: black;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+p {
+  padding: 15px 6px 0px 6px;
+  font-size: 18px;
+  position: relative;
+  margin-top: 7px;
+}
+
+.part { 
+    text-align: left;
+    border: 3px solid black;
+    border-radius: 7px;
+    margin-top: 20px; 
+    margin-right: 20px; 
+    padding: 10px; 
+    position: relative;
+    background-color: #c9c0c0;
+ }
+
+span {
+    border: 1px solid black;
+    font-size: 20px;
+    width: 25%;
+    font-weight: bold;
+    text-align: center;
+    top : 0px;
+    right: 0px;
+    margin: 0px;
+}
+#title1 {
+  background-color:  rgb(179, 189, 195);
+}
+#title2 {
+  background-color:  rgb(179, 189, 195);
+}
+#title3{
+  background-color:  rgb(179, 189, 195);
+}
+.link {
+  font-size: large;
+  font-weight: bold;
+  color: rgb(5, 5, 168);
+}
+.row {
+width: 100%;
+margin: auto;
+}
+/* END HOME PAGE */
+
+/* small devices only*/
+@media (max-width: 767px) {
+  .navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+  }
+  .navbar-brand h1 {
+    padding-top: 10px;
+    font-size: 5vw; 
+  }
+  #collapsable-nav a { 
+    font-size: 1.3em;
+  }
+  #collapsable-nav a span { 
+    font-size: 1em;
+    margin-right: 5px;
+  }
+}
+/* Super extra small devices */
+@media (max-width: 479px) {
+  /* Header */
+  .navbar-brand h1 { 
+    padding-top: 5px;
+    font-size: 5vw;
+  }
+}
